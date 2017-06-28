@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/aboooooot', function(){
 	return view('about page');
 });
+//about-ferture
+Route::get('about-ferture', function (){
+	return view('about-ferture page');
+});
