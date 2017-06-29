@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::get('/about', function(){
 	return view('about page');
 });
-//about-ferture
+//about-ferture test
 Route::get('about-ferture', function (){
 	return view('about-ferture page');
 });
